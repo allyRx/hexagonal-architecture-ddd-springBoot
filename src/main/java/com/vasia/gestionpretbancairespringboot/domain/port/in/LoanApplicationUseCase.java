@@ -7,7 +7,7 @@ import java.math.BigDecimal;
 import java.util.Optional;
 import java.util.UUID;
 
-public interface LoanApplicationServicePort {
+public interface LoanApplicationUseCase {
     LoanApplication submitApplication(String clientId, BigDecimal requestedAmount, int termInMonths);
 
     Optional<LoanApplication> getApplicationById(UUID id);
