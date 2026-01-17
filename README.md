@@ -194,12 +194,7 @@ curl -X GET http://localhost:8080/api/loans/550e8400-e29b-41d4-a716-446655440000
 curl -X POST http://localhost:8080/api/loans/550e8400-e29b-41d4-a716-446655440000/process
 ```
 
-## 🧪 Tests
 
-Pour exécuter les tests :
-```bash
-mvn test
-```
 
 ## 📝 Statuts de Demande
 
@@ -222,10 +217,5 @@ Les contributions sont bienvenues ! N'hésitez pas à créer des issues ou des p
 
 Ce projet est sous licence MIT.
 
-## 👨‍💻 Auteur
-
-Vasia Gestion Prêt Bancaire Team
-
----
 
 **Dernière mise à jour:** 17 janvier 2026
